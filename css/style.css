@@ -60,7 +60,7 @@ body h1,h2,h3,h4,h5,h6{
 }
 .navigation-right ul li a{
 	color:#fff;
-    font-size:1em;
+    font-size:1.1em;
     text-decoration: none;
     padding: 10px 0;
 	text-transform:uppercase;
@@ -120,7 +120,7 @@ ul.address {
      margin-top: 19px;
 }
 .header-right {
-    padding-left: 3em;
+    padding-left: 2.5em;
 }
 .header-right h1 {
     font-size: 2.5em;
