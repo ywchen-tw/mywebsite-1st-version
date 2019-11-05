@@ -241,13 +241,13 @@ ul.social-icons{
     box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);	
 }
 .social-icons li a.fb{
-	background-position: 3px -30px;
+	background-position: 3px -28px;
 }
 .social-icons li a.in{
-      background-position: 3px -62px;
+      background-position: 3px -59px;
 }
 .social-icons li a.dott {
-background-position: 3px -94px;
+background-position: 3px -91px;
 }
 .social-icons li a:hover::before {
     border-color: #00a78e;
@@ -440,7 +440,7 @@ span.border.one:after {
     margin-top: 1.5em;
 } 
 .about-left-grid ul{
-	margin:1em 0 0 0;
+	margin:2.5em 0 0 0;
 	padding:0;
 }
 .about-left-grid ul li{
