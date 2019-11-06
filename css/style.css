@@ -491,12 +491,35 @@ span.border.one:after {
 	padding:0;
 	background:url(../images/about-pic.jpg) no-repeat 0px 0px;
 	min-height:750px;
+
+  background-position: center center;
 	background-size: cover;
    -o-background-size: cover;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -ms-background-size: cover;
 }
+
+.about-clearfix {
+  background: #f4f4f4;
+}
+
+@media (min-width: 996px) {
+  .about-right {
+    background-size: contain;
+     -o-background-size: contain;
+     -webkit-background-size: contain;
+     -moz-background-size: contain;
+     -ms-background-size: contain;
+ }
+}
+
+@media (max-width: 1366px) {
+  .wthree_about_right_grid {
+    float: none;
+  }
+}
+
 /*-- services --*/
 .service-head h3{
 	color: #1b242f;
