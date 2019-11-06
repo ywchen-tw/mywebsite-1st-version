@@ -64,7 +64,8 @@ body h1,h2,h3,h4,h5,h6{
     text-decoration: none;
     padding: 10px 0;
 	text-transform:uppercase;
-    font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;	
 }
 .navigation-right ul li.active a{
 	    color: #00a78e;
@@ -271,13 +272,17 @@ background-position: 3px -91px;
 /*-- /blogs --*/
 .news-text {
     float: right;
-    padding: 3.38em 2em;
-    background: #f4f4f4;
+    padding: 3.48em 2.5em;
+	background: #f4f4f4;
+	min-height: 400px;
 }
 .news-img {
     float: left;
     position: relative;
-    padding: 0;
+	padding: 0;
+	display:  flex;
+    align-items: center;
+    justify-content:  center;
 }
 .news-text.two {
     float:left;
@@ -291,14 +296,13 @@ background-position: 3px -91px;
 .news-text h3   {
     font-size: 1.4em;
     color: #333333;
-    text-transform: uppercase;
-        margin-bottom: 1em;
-		font-weight:bold;
+    margin-bottom: 2em;
+	font-weight:bold;
 }
 .news-text p {
     font-size: 0.9em;
     line-height: 1.9em;
-    margin: 1em 0 2em 0;
+	margin: 1em 0 2em 0;
     color: #777;
 }
 .news-text h3  a,ul.news li:hover  i{
@@ -307,13 +311,13 @@ background-position: 3px -91px;
 }
 ul.news li {
     display: inline-block;
-       margin-right: 1em;
+       margin-right: 1.2em;
 }
 ul.news li i {
     margin-right: 4px;
 }
 ul.news li a{
-    font-size: 0.9em;
+    font-size: 1em;
     color: #777;
 }
 ul.news li i{
@@ -363,7 +367,10 @@ ul.news {
 .about-inner p {
     color: #777;
     line-height: 1.8em;
-    font-size:0.9em;
+	font-size: 1.2em;
+	text-align: justify;
+	margin-right: 2em;
+	margin-left: 2em;
 }
 h4.tittle  {
     color: #00a78e;
@@ -374,7 +381,7 @@ h4.tittle  {
     font-weight: bold;
 }
 .modal-dialog.about {
-    width: 757px;
+    width: 957px;
     margin:3.5em auto 0;
 }
 .modal-content.about {
@@ -418,7 +425,7 @@ span.border.one:after {
 }
 .about-left-grid h3{
 	font-size:2.5em;
-	color:#FFF;
+	color:#FFF;	
 }
 .about-left-grid{
 	width:80%;
@@ -434,17 +441,21 @@ span.border.one:after {
 	font-weight:700;
 }
 .about-left-grid p{
-    color: #666666;
+    color: #665565;
     font-size:1em;
     line-height: 2em;
-    margin-top: 1.5em;
+	margin-top: 1.5em;
+	text-align: justify;
 } 
 .about-left-grid ul{
-	margin:2.5em 0 0 0;
+	margin: 2.5em 0 0 0;
+	margin-left: 0em;
 	padding:0;
+	text-align: center;
 }
 .about-left-grid ul li{
 	display:inline-block;
+	
 }
 .about-left-grid ul li:nth-child(1){
 	margin-right: 0.2em;
@@ -542,6 +553,12 @@ span.border.one:after {
 	font-size: 1.5em;
 	color:#00a78e;
 	top:1em;
+}
+.wthree_about_right_grid_left h4{
+	font-size: 1.1em;
+	text-align: center;
+    color: #00a78e;
+    font-weight: bold;
 }
 .wthree_about_right_grid:hover .wthree_about_right_grid_left i{
 	color:#fff;
