@@ -407,23 +407,23 @@ span.border {
 }
  span.border:after {
        content: ' ';
-    position: absolute;
+    position: relative;
     background: #00a78e;
     height: 7px;
     display: block;
-    width: 73px;
+    width: 40%;
     top: -4px;
-    left: 103px;
+    left: 30%;
 }
 span.border.one:after {
     content: ' ';
-    position: absolute;
+    position: relative;
     background: #00a78e;
     height: 7px;
     display: block;
-    width: 73px;
+    width: 40%;
     top: -4px;
-    left: 64px;
+    left: 30%;
 }
 .about-left-grid h3{
 	font-size:2.5em;
