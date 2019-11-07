@@ -150,11 +150,12 @@ ul.address {
     border-color: #00a78e transparent transparent transparent;
 }
 .service-head h4 {
-    font-size: 1.2em;
+    font-size: 1.4em;
     color: #FFF;
     background: #00a78e;
     display: inline-block;
-    padding: .5em 1.5em;
+	padding: .6em 1.5em;
+	margin-top: 1em;
     position: relative;
 	    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -198,6 +199,7 @@ ul.address li ul.address-text li:nth-child(1){
 ul.address li ul.address-text li a {
     color: #fff;
 	text-decoration:none;
+	margin-left: 1em;
 }
 ul.address li ul.address-text li a:hover{
         color: #00a78e;
@@ -532,6 +534,7 @@ span.border.one:after {
 .service-head h3 span{
 	font-weight:700;
  font-family: 'Asap', sans-serif;
+ 
 }
 .wthree_about_left,.wthree_about_right{
 	padding:0;
@@ -659,6 +662,7 @@ span.border.one:after {
 }
 .service-head.one h3{
 	color:#fff;
+	margin-top: 1em;
 }
 /*-- clients --*/
 
@@ -670,6 +674,8 @@ span.border.one:after {
   list-style: none;
       padding: 10px 0 10px;
   position: relative;
+  margin: 0 auto;
+
 }
 .timeline:before {
       top: 0;
@@ -721,6 +727,13 @@ h4.timeline-title a:hover {
     margin: 0;
     padding: 0;
     color: #777;
+    line-height: 1.9em;
+}
+.timeline-body ul {
+	margin-left: 1em;
+	font-size: 1em;
+    padding: 0;
+    color: #666;
     line-height: 1.9em;
 }
 .timeline > li > .timeline-panel:before {
@@ -849,7 +862,8 @@ ul.year_2 li:nth-child(4){
     font-size: 0.9em;
 }
 .time-main {
-    margin-top: 3em;
+	margin-top: 3em;
+	position: relative;
 }
 /*--//work--*/
 /*-- portfolio --*/
