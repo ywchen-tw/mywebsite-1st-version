@@ -1260,7 +1260,7 @@ span.border.two:after {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 100px;
+    min-height: 80px;
     padding:2em 0 0em 0;
 }
 .footer_top ul li{
@@ -1328,7 +1328,7 @@ span.border.two:after {
 		padding:4em 0;
 	}
 	.footer {
-		min-height: 650px;
+		min-height: 50px;
 		padding: 4em 0 0em 0;
 	}
 	#port {
@@ -1383,7 +1383,7 @@ span.border.two:after {
 		padding: 3em 0 0 0;
 	}
 	.footer {
-		min-height: 587px;
+		min-height: 100px;
 		padding: 3em 0 0em 0;
 	}
 	ul.year li:nth-child(2) {
