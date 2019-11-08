@@ -326,7 +326,8 @@ background-position: 3px -91px;
 }
 ul.news li {
     display: inline-block;
-       margin-right: 1.2em;
+	margin-right: 1.2em;
+	line-height: 1.5em;
 }
 ul.news li i {
     margin-right: 4px;
