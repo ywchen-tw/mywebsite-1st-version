@@ -277,6 +277,7 @@ background-position: 3px -91px;
     padding: 3.48em 2.5em;
 	background: #f4f4f4;
 	min-height: 400px;
+	margin: auto;
 }
 .news-img {
     float: left;
@@ -284,7 +285,17 @@ background-position: 3px -91px;
 	padding: 0;
 	display:  flex;
     align-items: center;
-    justify-content:  center;
+	justify-content:  center;
+	
+	
+	min-height:400px;
+
+  	background-position: center center;
+	background-size: cover;
+   -o-background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -ms-background-size: cover;
 }
 .news-text.two {
     float:left;
@@ -297,8 +308,10 @@ background-position: 3px -91px;
 }
 .news-text h3   {
     font-size: 1.4em;
-    color: #333333;
-    margin-bottom: 2em;
+	color: #333333;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	line-height: 1.5em;
 	font-weight:bold;
 }
 .news-text p {
@@ -379,12 +392,11 @@ h4.tittle  {
     text-decoration: none;
     font-size: 1.4em;
     margin: 1em 0 0.5em 0;
-    text-transform: uppercase;
     font-weight: bold;
 }
 .modal-dialog.about {
-    width: 957px;
-    margin:3.5em auto 0;
+    width: 60%;
+    margin:3.5em auto 3.5em auto;
 }
 .modal-content.about {
     background-color: #fff;
@@ -430,10 +442,17 @@ span.border.one:after {
 	color:#FFF;	
 }
 .about-left-grid{
-	width:80%;
+	width:85%;
 	float:right;
-    margin-right: 7.5em;
+	margin-right: 3.75em;
+	margin-left: 3.75em; 
 	min-height:603px;
+	background-position: center center;
+	background-size: cover;
+   -o-background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -ms-background-size: cover;
 }
 .about-left-grid h2{
 	color:#191919;
@@ -465,7 +484,13 @@ span.border.one:after {
 .about-left {
       padding: 4.6em 0 4.6em 0;
     float: right;
-    background: #f4f4f4;
+	background: #f4f4f4;
+	background-position: center center;
+	background-size: cover;
+   -o-background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -ms-background-size: cover;
 }
 .about-left-grid ul li a {
        padding: 0.6em 2em;
@@ -494,7 +519,7 @@ span.border.one:after {
 	background:url(../images/about-pic.jpg) no-repeat 0px 0px;
 	min-height:750px;
 
-  background-position: center center;
+  	background-position: center center;
 	background-size: cover;
    -o-background-size: cover;
    -webkit-background-size: cover;
@@ -1335,7 +1360,8 @@ span.border.two:after {
 	.about-left-grid {
 		width: 70%;
 		float: right;
-		margin-right: 5em;
+		margin-right: 2.5em;
+		margin-left: 2.5em;
 		min-height: 433px;
 	}
 	#work,.blog{
@@ -1383,7 +1409,8 @@ span.border.two:after {
 	.about-left-grid {
 		width: 70%;
 		float: right;
-		margin-right:5em;
+		margin-right: 2.5em;
+		margin-left: 2.5em;
 		min-height: 459px;
 	}
 	.news-text {
@@ -1462,9 +1489,9 @@ span.border.two:after {
 	.about-left-grid {
 		width:80%;
 		float: none;
-		margin-right: 0;
 		min-height: 306px;
-		margin-left: 7em;
+		margin-right: 2.5em;
+		margin-left: 2.5em;
 	}
 	#home {
 	   min-height: 563px;  
