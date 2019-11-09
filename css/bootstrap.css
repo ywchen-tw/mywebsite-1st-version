@@ -2538,6 +2538,12 @@ input[type="button"].btn-block {
 .glyphicon-tags:before {
   content: "\e042";
 }
+.glyphicon-blackboard:before {
+  content: "\e218";
+}
+.glyphicon-knite:before {
+  content: "\e215";
+}
 .glyphicon-book:before {
   content: "\e043";
 }
