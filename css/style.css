@@ -1619,9 +1619,9 @@ span.border.two:after {
 	.about-left-grid {
 		width: 80%;
 		float: none;
-		margin-right: 0;
+		margin-right: 3em;
 		min-height: 367px;
-		margin-left: 7em;
+		margin-left: 3em;
 	}
 	.resp-tab-item {
 		margin: 0 3px;
@@ -1647,9 +1647,9 @@ span.border.two:after {
 	.about-left-grid {
 		width: 80%;
 		float: none;
-		margin-right: 0;
+		margin-right: 3em;
 		min-height: 367px;
-		margin-left: 7em;
+		margin-left: 3em;
 	}
 }
 @media(max-width:640px){
@@ -1727,6 +1727,7 @@ span.border.two:after {
 	}
 	.navigation-right {
 		margin: 0.7em 0 0;
+		text-align: right;
 	}
 	.navigation-right ul li a {
 		display: inline-block;
@@ -1740,9 +1741,9 @@ span.border.two:after {
 	.about-left-grid {
 		width: 80%;
 		float: none;
-		margin-right: 0;
+		margin-right: 3em;
 		min-height: 390px;
-		margin-left: 7em;
+		margin-left: 3em;
 	}
 	span.border:after {
 		height: 7px;
@@ -1795,9 +1796,9 @@ span.border.two:after {
 	.about-left-grid {
 		width: 80%;
 		float: none;
-		margin-right: 0;
+		margin-right: 3em;
 		min-height: 418px;
-		margin-left: 7em;
+		margin-left: 3em;
 	}
 }
 @media(max-width:480px){
@@ -1860,9 +1861,9 @@ span.border.two:after {
 	.about-left-grid {
 		width: 93%;
 		float: none;
-		margin-right: 0;
+		margin-right: 1em;
 		min-height: 390px;
-		margin-left: 2em;
+		margin-left: 1em;
 	}
 	.about-left-grid ul li a {
 		padding: 0.6em 2em;
@@ -1967,9 +1968,9 @@ span.border.two:after {
 	.about-left-grid {
 		width: 93%;
 		float: none;
-		margin-right: 0;
+		margin-right: 1em;
 		min-height: 454px;
-		margin-left: 2em;
+		margin-left: 1em;
 	}
 	.about-right {
 		float: none;
@@ -2045,9 +2046,9 @@ span.border.two:after {
 	 .about-left-grid {
 		width: 97%;
 		float: none;
-		margin-right: 0;
+		margin-right: 0.75em;
 		min-height: 454px;
-		margin-left: 1em;
+		margin-left: 0.75em;
 	}
 	.portfolio-grids {
 		margin-top: 1.2em;
@@ -2064,9 +2065,9 @@ span.border.two:after {
 	.about-left-grid {
 		width: 97%;
 		float: none;
-		margin-right: 0;
+		margin-right: 0.5em;
 		min-height: 473px;
-		margin-left: 1em;
+		margin-left: 0.5em;
 	}
 	.about-left-grid ul li a {
 		padding: 0.4em 1em;
@@ -2093,9 +2094,9 @@ span.border.two:after {
 	.about-left-grid {
 		width: 94%;
 		float: none;
-		margin-right: 0;
+		margin-right: 0.5em;
 		min-height: 544px;
-		margin-left: 1em;
+		margin-left: 0.5em;
 	}
 	ul.address {
 		margin-top: 1em;
