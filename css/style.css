@@ -1700,9 +1700,9 @@ span.border.two:after {
 	span.menu {
 		display: block;
 		cursor: pointer;
-		width: 20%;
+		width: 50%;
 		position: relative;
-		text-align: center;
+		text-align: right;
 		margin: 0px;
 	}
 	.navigation-right ul {
@@ -1922,7 +1922,7 @@ span.border.two:after {
 }
 @media(max-width:414px){
 	span.menu img {
-		width: 17.5%;
+		width: 45%;
 		margin-top: 8px;
 	}
 	.thumb:hover ul li {
@@ -2076,7 +2076,7 @@ span.border.two:after {
 		font-size: 1.7em;
 	}
 	span.menu img {
-		width:15%;
+		width:40%;
 		margin-top: 8px;
 	}
 	.news-text {
@@ -2113,7 +2113,7 @@ span.border.two:after {
 		font-size: 1.7em;
 	}
 	span.menu img {
-		width:12.5%;
+		width:35%;
 		margin-top: 8px;
 	}
 	#work, .blog, #services {
